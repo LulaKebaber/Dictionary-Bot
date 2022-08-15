@@ -78,7 +78,9 @@ def deleteWord(message):
 def askLearnType(message):
     msg = bot.send_message(message.chat.id, 'Choose the the type: ')
     bot.send_message(message.chat.id, 'Types: noun/adjective/verb')
-    bot.register_next_step_handler(msg, learnWords)    
+    bot.register_next_step_handler(msg, learnWords)   
+def learnWords(message):
+     
 
 
 
