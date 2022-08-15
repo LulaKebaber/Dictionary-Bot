@@ -80,8 +80,7 @@ def askLearnType(message):
     bot.send_message(message.chat.id, 'Types: noun/adjective/verb')
     bot.register_next_step_handler(msg, learnWords)   
 def learnWords(message):
-     
-
+      pass  
 
 
 # ------------------
