@@ -3,7 +3,7 @@ import telebot
 import pandas as pd
 from telebot import types
 
-token="5466738128:AAH0alQqffVY1NcpEHccT0NCuo1z0pRLDtk"
+token="token"
 bot=telebot.TeleBot(token)
 
 # vocabulary csv file
